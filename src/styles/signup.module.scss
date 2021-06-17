@@ -1,0 +1,135 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+  width: 100vw;
+  background: #c3001b;
+  padding: 99px 264px 98px 263px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 583px;
+  background: #fff;
+
+  padding: 87.4px 61px 0 80px;
+
+  img {
+    margin-bottom: 54.3px;
+  }
+
+  h1 {
+    margin-bottom: 4px;
+    font-size: 33px;
+    height: 47px;
+    width: 314px;
+    line-height: 39px;
+  }
+
+  span {
+    margin-bottom: 7px;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #707070;
+    line-height: 20px;
+  }
+
+  form {
+    .inputGroup {
+      display: flex;
+
+      input {
+        width: 214.5px;
+        margin-right: 8px;
+      }
+    }
+    label {
+      font-size: 13px;
+      font-family: "Lato";
+      font-weight: 700;
+      color: #2a2a2a;
+      margin-bottom: 4px;
+    }
+
+    input {
+      height: 53px;
+      width: 437px;
+      color: var(--red);
+      background: #ececec;
+      border: 1px solid #b8b8b8;
+      border-radius: 5px;
+      font-family: "Roboto";
+      font-size: 18px;
+      font-weight: 500;
+      padding-left: 16px;
+      margin-bottom: 8px;
+    }
+
+    button {
+      width: 160px;
+      height: 48px;
+      margin-top: 28px;
+      border: none;
+      border-radius: 8px;
+      background: var(--red);
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+}
+
+.contentRight {
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  max-width: 813px;
+  background: url("../../public/images/signup.svg") no-repeat center;
+
+  padding-top: 39px;
+  padding-left: 42px;
+
+  button {
+    margin-bottom: 30px;
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: var(--red);
+    color: #fff;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    div {
+      display: flex;
+      margin-bottom: 9px;
+      align-items: center;
+      justify-content: flex-start;
+
+      h1 {
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-left: 11px;
+      }
+    }
+  }
+}

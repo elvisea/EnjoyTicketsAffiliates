@@ -1,0 +1,11 @@
+<svg id="Grupo_247" data-name="Grupo 247" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="23" viewBox="0 0 96 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="5.755" fill="none"/>
+    </clipPath>
+  </defs>
+  <text id="Daily" transform="translate(0 17)" fill="#2a2a2a" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Daily</tspan></text>
+  <g id="arrw" transform="translate(80 9)" clip-path="url(#clip-path)">
+    <path id="Caminho_90" data-name="Caminho 90" d="M1056,1816l7,3.754,7-3.754" transform="translate(-1055 -1815)" fill="none" stroke="#2a2a2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>
